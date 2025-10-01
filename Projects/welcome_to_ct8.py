@@ -5,7 +5,7 @@ print("Make sure you bookmark this page using the STAR icon in the top right cor
 input("\n---Press Enter when you have bookmarked the page---\n")
 
 
-print("\n\n")
+print("\n\n")aq1wqsazx
 print("This area is called the TERMINAL.")
 print("It shows messages and errors.")
 print("You also can type in the terminal.")
