@@ -31,12 +31,12 @@ window.tracer(0)
 
 ######################################################################
 # Section 2 - Your code
-set_background("fall")
-sprite1 = create_sprite("cardinal", 0, 0)
+set_background("Hawii")
+sprite1 = create_sprite("proposal"), 0, 0)
 
 sprite2 = create_sprite("alien",-120,150)
 sprite2.color("blue")
-sprite2.write("Go SAAS!",font = ("Arial", 40, "normal"))
+sprite2.write("will you mary me?",font = ("Arial", 40, "normal"))
 sprite2.hideturtle()
 ######################################################################
 

@@ -8,7 +8,7 @@ elif answer == "B":
     summer_points += 1
 
 answer = input("Would you spend your day at A the snow or B at the beach? ")
-if answer == "A":
+if answer == "A" :
     winter_points += 1
 elif answer == "B":
     summer_points += 1
@@ -38,6 +38,8 @@ if answer == "A" and summer > 2:
     winter_points += 1
 elif answer == "B":
     summer_points += 1
+if answer == "A" or == "B":
+print("you are done with the quiz!")
 
 # final result
 if summer_points > winter_points:
