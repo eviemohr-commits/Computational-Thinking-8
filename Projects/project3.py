@@ -11,7 +11,7 @@ def set_image(sprite, image_filename):
     image_file = f"./Images/{image_filename}.gif"
     screen = turtle.Screen()
     screen.register_shape(image_file)
-    sprite.shape(image_file)
+    sprite.shape(image_file)Z8i	`qq vbfnffeb  c`
 
 def create_sprite(image_filename, x=0, y=0):
     sprite = turtle.Turtle()
@@ -48,35 +48,34 @@ window = turtle.Screen()
 window.tracer(0)
 
 
+# Section 2: Setup
+# TODO - create your player character
+# TODO - set your background
+# TODO - set the starting value for your variable
+       
+# Section 3: Controls
+# TODO - define your controls
+# TODO - pick keys for each control
 
-######################################################################
-# https://en.wikipedia.org/wiki/Web_colors#Extended_colors
-# Section 2 - Your code
-set_background("slope") # i chose a mountain backround becasue I love to ski
-
-draw_rectangle("pink", 100, 100, 200, 200)
-draw_rectangle("yellow", -100, 100, 200, 200)
-draw_rectangle("white", 100, -100, 200, 200)
-draw_rectangle("blue", -100, -100, 200, 200)
-
-s1 = create_sprite("bush", 100, 100)
-s2 = create_sprite("cardinal", -100, -100) # I chose a cardinal sprite becasue I go to saas
-s3= create_sprite("skier", 100, -100)
-s4= create_sprite("soccerball", -100, 100) # I chose a soccer ball becasue I love to play soccer
-
-message1 = create_sprite("alien",-200,200)
-message1.color("red")
-message1.write("Evie",font = ("Arial", 40, "normal"))
-message1.hideturtle()
-
-message1 = create_sprite("balloon",-180,-260)
-message1.color("blue")
-message1.write("all about me",font = ("Arial", 40, "normal"))
-message1.hideturtle()
-
-######################################################################
+# Section 4: Game Loop
+window.listen()
+timer = 0
+while True:
+	time.sleep(0.1)
+	timer += 1  
+	 
+    
+ 	# TODO - code for automatic actions
 
 
-# Section 3 - Keeping the window open (DON'T CHANGE!!)
-window.update()
-turtle.exitonclick()
+
+
+
+
+	window.update()
+
+	# if :
+	# 	break
+	
+
+print("Game Over")                  
